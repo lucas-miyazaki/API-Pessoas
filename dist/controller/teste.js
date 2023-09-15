@@ -15,5 +15,5 @@ pessoa2.ComerComida(`Pizza`);
 pessoa.Andar();
 pessoa2.Andar();
 pessoa2.AndarQuilometros(`10`);
-pessoa.AndarQuilometros(`10`);
+pessoa.AndarQuilometros(`15`);
 //# sourceMappingURL=teste.js.map

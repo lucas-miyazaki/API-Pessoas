@@ -10,7 +10,7 @@ export class Pessoa {
     public constructor(
         _nome: string,
         _cpf: string,
-        _data_Nascimento: Date,
+        _dataNascimento: Date,
         _telefone: string,
         _endereco: string,
         _altura: number,
@@ -18,7 +18,7 @@ export class Pessoa {
     ) {
         this.nome = _nome;
         this.cpf = _cpf;
-        this.data_Nascimento = _data_Nascimento;
+        this.dataNascimento = _dataNascimento;
         this.telefone = _telefone;
         this.endereco = _endereco;
         this.altura = _altura;
@@ -56,7 +56,7 @@ export class Pessoa {
     /**
      * Atribui a data nascimento da pessoa
      *
-     * @param _data_Nascimento
+     * @param _dataNascimento
      * Data de Nascimento da pessoa
      */
     public setTelefone(_telefone: string): void {
@@ -139,7 +139,7 @@ export class Pessoa {
     public mostrarPessoa() {
         console.log(`Nome: ${this.nome}
                     CPF: ${this.cpf}
-                    Data: ${this.data_Nascimento}
+                    Data: ${this.dataNascimento}
                     Telefone: ${this.telefone}
                     Endereço: ${this.endereco}
                     Altura: ${this.altura}
